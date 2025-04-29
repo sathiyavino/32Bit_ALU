@@ -60,6 +60,8 @@ source /cadence/install/cshrc (mention the path of the tools)
       
 After this you can see the window like below 
 
+![WhatsApp Image 2025-04-29 at 16 07 14_4de9f5f6](https://github.com/user-attachments/assets/7c866775-c06d-43be-a5a6-4bed3ea6aa75)
+
 ### Fig 2: Invoke the Cadence Environment
 
 To Launch Simulation tool 
@@ -73,11 +75,15 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![WhatsApp Image 2025-04-29 at 16 07 15_9af824bd](https://github.com/user-attachments/assets/2e5d0b48-b622-4488-81be-26f0cb135f80)
+
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+
+![WhatsApp Image 2025-04-29 at 16 07 15_7c9c08e9](https://github.com/user-attachments/assets/0cf65a0b-122b-400a-b0a7-88ba9254dd89)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +106,8 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+
+![WhatsApp Image 2025-04-29 at 16 07 15_da44fc6f](https://github.com/user-attachments/assets/60c9f683-c783-4350-b5df-940354e65517)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,6 +132,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+![WhatsApp Image 2025-04-29 at 16 07 16_a189b024](https://github.com/user-attachments/assets/1b2a95f2-30cb-4126-a659-49be45516829)
 
 ### Fig 7: Compiled database in worklib
 
@@ -159,6 +169,8 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
+![WhatsApp Image 2025-04-29 at 16 07 16_c4d3623e](https://github.com/user-attachments/assets/d1bae19a-8fe3-4e52-b3d4-82dfe870bf10)
+
 ## Fig 8: Elaboration Launch Option
 
 ## Step 3: Simulation: 
@@ -173,9 +185,15 @@ Simulation allow to dump design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
+![WhatsApp Image 2025-04-29 at 16 07 16_aaaa6b9f](https://github.com/user-attachments/assets/bbfb7cd1-5e72-44c7-b0dc-c963e0214db9)
+
 ## Fig 9: Design Browser window for simulation
 
+![WhatsApp Image 2025-04-29 at 16 07 17_6061058e](https://github.com/user-attachments/assets/9c96ee68-25fa-464c-b287-cc3d60c6a7ef)
+
 ## Fig 10:Simulation Waveform Window
+
+![WhatsApp Image 2025-04-29 at 16 07 17_447562e0](https://github.com/user-attachments/assets/96bc4fe4-22fa-4b14-9e44-ad4327e00bff)
 
 ## Fig 11:Simulation Waveform Window
 
