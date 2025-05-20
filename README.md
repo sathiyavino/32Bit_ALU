@@ -31,6 +31,7 @@ A Blank Document opens up into which the following source code can be typed down
 (Note : File name should be with HDL Extension)
 
 ## a)To Verify the Functionality using Test Bench
+```
 
 ## Source Code – Using Case Statement :
 module alu_32bit_case(y,a,b,f);
@@ -52,6 +53,7 @@ case(f)
 endcase
 end
 endmodule
+```
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -60,6 +62,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
 ## Test Bench :
+```
 
 module alu_32bit_tb_case;
 reg [31:0]a;
@@ -82,7 +85,7 @@ b=32'h10101010;
 #50 $finish;
 end
 endmodule
-
+```
 
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
